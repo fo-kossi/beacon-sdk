@@ -4,7 +4,7 @@ import { NetworkType } from '../src/types/beacon/NetworkType'
 import { ExtensionApp, WebApp, App, AppBase, DesktopApp } from '../src/ui/alert/Pairing'
 
 export const extensionList: ExtensionApp[] = [
-  {
+  /* {
     key: 'spire_chrome',
     id: 'gpfndedineagiepkpinficbcbbgjoenn',
     name: 'Spire',
@@ -12,7 +12,7 @@ export const extensionList: ExtensionApp[] = [
     color: '',
     logo: 'extension-spire.png',
     link: 'https://spirewallet.com/'
-  },
+  }, */
   {
     key: 'temple_chrome',
     id: 'ookjlbkiijinhpmnjffcofjonbfbgaoc',
@@ -42,7 +42,7 @@ export const webList: WebApp[] = [
 ]
 
 export const desktopList: DesktopApp[] = [
-  {
+  /* {
     key: 'galleon_desktop',
     name: 'Galleon',
     shortName: 'Galleon',
@@ -57,11 +57,11 @@ export const desktopList: DesktopApp[] = [
     color: '',
     logo: 'desktop-umami.png',
     deepLink: 'umami://'
-  }
+  } */
 ]
 
 export const iosList: App[] = [
-  {
+  /* {
     key: 'airgap_ios',
     name: 'AirGap Wallet',
     shortName: 'AirGap',
@@ -69,7 +69,7 @@ export const iosList: App[] = [
     logo: 'ios-airgap.png',
     universalLink: 'https://wallet.airgap.it',
     deepLink: 'airgap-wallet://'
-  }
+  } */
   // {
   //   name: 'Galleon',
   //   shortName: 'Galleon',
